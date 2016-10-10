@@ -1,0 +1,2 @@
+/home/gianpaolo/CoinIpopt/myexample/Debug/CMakeFiles/myexample.dir
+/home/gianpaolo/CoinIpopt/myexample/Debug/CMakeFiles/hs071_nlp.dir

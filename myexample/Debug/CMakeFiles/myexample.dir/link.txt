@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/myexample.dir/src/hs071_main.cpp.o  -o myexample  -L/home/gianpaolo/CoinIpopt/Debug/lib -rdynamic -ldl -lgfortran libhs071_nlp.a -Wl,-Bstatic -lipopt -lcoinmumps -lcoinlapack -lcoinasl -lcoinblas -lcoinmetis -lipoptamplinterface -Wl,-Bdynamic -ldl -lgfortran -Wl,-rpath,/home/gianpaolo/CoinIpopt/Debug/lib 

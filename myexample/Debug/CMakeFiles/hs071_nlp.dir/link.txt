@@ -1,0 +1,2 @@
+/usr/bin/ar cq libhs071_nlp.a  CMakeFiles/hs071_nlp.dir/src/hs071_nlp.cpp.o
+/usr/bin/ranlib libhs071_nlp.a
