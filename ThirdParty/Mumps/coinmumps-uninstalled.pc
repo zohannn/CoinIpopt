@@ -1,0 +1,10 @@
+prefix=/home/gianpaolo/CoinIpopt/Release
+libdir=/home/gianpaolo/CoinIpopt/ThirdParty/Mumps
+
+Name: Mumps
+Description: Multifrontal Massively Parallel sparse direct Solver
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.5.4
+Libs: ${libdir}/libcoinmumps.la  -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. -lgfortran -lm -lquadmath
+Cflags: -I/home/gianpaolo/CoinIpopt/ThirdParty/Mumps/MUMPS/libseq -I/home/gianpaolo/CoinIpopt/ThirdParty/Mumps/MUMPS/include
+Requires: coinmetis coinblas 

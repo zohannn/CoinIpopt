@@ -1,0 +1,10 @@
+prefix=/home/gianpaolo/CoinIpopt/Release
+libdir=/home/gianpaolo/CoinIpopt/Ipopt/src/Apps/AmplSolver
+
+Name: IPOPT
+Description: Ampl Interface TNLP to Ipopt
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.4
+Libs: ${libdir}/libipoptamplinterface.la 
+Cflags: -I/home/gianpaolo/CoinIpopt/Ipopt/src/Apps/AmplSolver
+Requires: ipopt coinasl 
