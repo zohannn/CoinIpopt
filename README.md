@@ -1,5 +1,5 @@
 # CoinIpopt
-This is an implementation of an interior-point algorithm with a line-search method for nonllinear optimization. 
+This is an implementation of an interior-point algorithm with a line-search method for nonlinear optimization. 
 
 This package contains several subdirectories corresponding to [COIN-OR projects](www.coin-or.org). The AUTHORS, LICENSE and README files in 
 each of the subdirectories give more information about these projects. More detailed documentation can be found at https://coin-or.github.io/Ipopt/ and 
