@@ -12,6 +12,7 @@ ThirdParty/ASL/*.status
 ThirdParty/ASL/*.mod
 ThirdParty/ASL/Makefile
 ThirdParty/ASL/.libs/
+ThirdParty/ASL/.deps/
 # ----- Blas ---------- #
 ThirdParty/Blas/*.a
 ThirdParty/Blas/*.o
@@ -25,6 +26,7 @@ ThirdParty/Blas/*.status
 ThirdParty/Blas/*.mod
 ThirdParty/Blas/Makefile
 ThirdParty/Blas/.libs/
+ThirdParty/Blas/.deps/
 # ----- HSL ---------- #
 ThirdParty/HSL/*.a
 ThirdParty/HSL/*.o
@@ -38,6 +40,7 @@ ThirdParty/HSL/*.status
 ThirdParty/HSL/*.mod
 ThirdParty/HSL/Makefile
 ThirdParty/HSL/.libs/
+ThirdParty/HSL/.deps/
 # ----- Lapack ---------- #
 ThirdParty/Lapack/*.a
 ThirdParty/Lapack/*.o
@@ -51,6 +54,7 @@ ThirdParty/Lapack/*.status
 ThirdParty/Lapack/*.mod
 ThirdParty/Lapack/Makefile
 ThirdParty/Lapack/.libs/
+ThirdParty/Lapack/.deps/
 # ----- Metis ---------- #
 ThirdParty/Metis/*.a
 ThirdParty/Metis/*.o
@@ -64,6 +68,7 @@ ThirdParty/Metis/*.status
 ThirdParty/Metis/*.mod
 ThirdParty/Metis/Makefile
 ThirdParty/Metis/.libs/
+ThirdParty/Metis/.deps/
 # ----- Mumps ---------- #
 ThirdParty/Mumps/*.a
 ThirdParty/Mumps/*.o
@@ -77,7 +82,7 @@ ThirdParty/Mumps/*.status
 ThirdParty/Mumps/*.mod
 ThirdParty/Mumps/Makefile
 ThirdParty/Mumps/.libs/
-
+ThirdParty/Mumps/.deps/
 # ----- Ipopt ---------- #
 Ipopt/*.a
 Ipopt/*.o
@@ -91,6 +96,7 @@ Ipopt/*.status
 Ipopt/*.mod
 Ipopt/Makefile
 Ipopt/.libs/
+Ipopt/.deps/
 Ipopt/contrib/JavaInterface/Makefile
 Ipopt/contrib/MatlabInterface/src/Makefile
 Ipopt/contrib/MatlabInterface/examples/startup.m
@@ -300,7 +306,9 @@ Ipopt/tutorial/CodingExercise/Matlab/3-solution/startup.m
 # ----- Current directory ------ #
 doc/
 documentation/
+doxydoc/*.tag
 doxydoc/doxygen.conf
+doxydoc/doxygen.conf/html/
 Debug/
 Release/
 *.user
