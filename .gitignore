@@ -308,7 +308,7 @@ doc/
 documentation/
 doxydoc/*.tag
 doxydoc/doxygen.conf
-doxydoc/doxygen.conf/html/
+doxydoc/html/
 Debug/
 Release/
 *.user
