@@ -8,8 +8,15 @@ this implementation is described by the following paper:
 
 ## Installation guide
 
-Follow the instructions to guide your installation of CoinIpopt
+Follow the instructions to guide your installation of CoinIpopt (see also https://coin-or.github.io/Ipopt/INSTALL.html)
 
+### Dependencies
+
+Make sure your Linux distribution comes with the following necessary tools 
+```Bash
+sudo apt-get install gcc g++ gfortran git patch wget pkg-config
+```
+Then, prepare your installation folders
 ```Bash
 cd /home/${USER}
 git clone https://github.com/zohannn/CoinIpopt.git
